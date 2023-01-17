@@ -1,0 +1,53 @@
+.navbar{
+  background-color: darkgray;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+
+}
+.navbar a{
+  color:white;
+  text-decoration: none;
+    
+
+}
+.navbar a:hover{
+color: blueviolet;
+
+
+}
+.icon{
+  margin-top: 0.5%;
+  font-family: cursive;
+}
+.input {
+  margin-top: 18%;
+  margin-left: 45%;
+}
+.input input{
+  padding: 0.5%;
+  width:200px;
+}
+.input button:hover{
+  color:red;
+ 
+  outline: none;
+  border:1px;
+
+
+}
+.input button{
+    font-size: 15px;
+}
+.image{
+  margin-left: 10px;
+}
+.firstparagraph{
+  font-family: monospace;
+  font-size: 20px;
+}
+.myimg{
+  width: 200px;
+  margin-left: 40%;
+  margin-top: 10%;
+}
