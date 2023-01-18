@@ -9,7 +9,7 @@ class Products extends React.Component{
 				<h1>HOME ELECTRONICS</h1>
 				{
 					this.props.appliances.map((product)=>(
-						<div>
+						<div key={product.id} >
 						    <img src={product.image} width="200px" className="image"/>
 							<p>Name:{product.name}</p>
 							<p>About:{product.description}</p>
